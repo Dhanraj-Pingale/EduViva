@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "vite build"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",
@@ -28,6 +30,8 @@
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.25.9",
     "@eslint/js": "^9.9.0",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
@@ -40,7 +44,10 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.47",
     "react-router-dom": "^6.26.2",
+    "rollup": "^4.29.1",
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.1"
-  }
+  },"engines": {
+  "node": ">=16.x"
+}
 }
