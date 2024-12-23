@@ -15,7 +15,7 @@ import QuestionsPage from "./components/company_homepage/result/QuestionsPage.js
 import FeedbackPage from "./components/company_homepage/result/FeedbackPage.jsx";
 import FeedbackDetailPage from "./components/company_homepage/result/FeedbackDetailPage.jsx";
 
-import Home from "./components/user_homepage/pages/home.jsx";
+import Home from "./components/user_homepage/pages/Home1.jsx";
 import Guideline from "./components/user_homepage/pages/Guideline.jsx";
 import GiveInterview from "./components/user_homepage/pages/GiveInterview.jsx";
 import Demo_viva from "./components/user_homepage/pages/Demo_viva.jsx";
